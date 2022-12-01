@@ -1,18 +1,20 @@
 .page-header {
-    background: $blue;
-    color: white;
-    padding: 5rem 0;
+    color: $blue;
     position: relative;
     z-index: 0;
 
     margin-top: 145px;
 
     h1 {
-        color: white;
+        color: $blue;
         font-weight: bold;
         position: relative;
         text-align: center;
     }
+}
+
+.page-content {
+    padding: 5rem 0;
 }
 
 @media (max-width: 960px) {

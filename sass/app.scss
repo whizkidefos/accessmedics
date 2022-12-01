@@ -10,6 +10,7 @@ $boxShadow: 1px 3px 5px rgba(0, 0, 0, 0.05);
 
 html, body {
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .blue-btn {
@@ -31,4 +32,6 @@ html, body {
 
 // Imports
 @import './components/header';
+@import './components/footer';
+@import './components/back-to-top';
 @import './pages/page';

@@ -5,6 +5,7 @@
 
 html, body {
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .blue-btn {
@@ -267,19 +268,90 @@ nav.main-menu ul a:hover {
     top: 7.8rem;
   }
 }
-.page-header {
+footer {
   background: #2751c4;
   color: white;
+  margin-top: 5rem;
   padding: 5rem 0;
+}
+footer p, footer a {
+  font-size: 14px;
+}
+footer h4 {
+  color: white;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 5px;
+}
+footer p {
+  margin: 0;
+}
+
+.footer-menu ul {
+  list-style: none;
+  padding-left: 0;
+}
+.footer-menu ul a {
+  color: whitesmoke;
+}
+.footer-menu ul a:hover {
+  color: white;
+}
+
+.footer-links a {
+  color: whitesmoke;
+  text-decoration: underline;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 10;
+  border: none;
+  outline: none;
+  background-color: #2751c4;
+  color: white;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50px;
+  font-size: 18px;
+  -webkit-transition: all 350ms;
+  transition: all 350ms;
+  -webkit-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.05);
+          box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.05);
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.page-header {
+  color: #2751c4;
   position: relative;
   z-index: 0;
   margin-top: 145px;
 }
 .page-header h1 {
-  color: white;
+  color: #2751c4;
   font-weight: bold;
   position: relative;
   text-align: center;
+}
+
+.page-content {
+  padding: 5rem 0;
 }
 
 @media (max-width: 960px) {
