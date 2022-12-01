@@ -8,11 +8,46 @@ html, body {
   scroll-behavior: smooth;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif !important;
+}
+
+::-moz-selection {
+  background-color: rgb(181, 192, 221);
+  color: black;
+}
+
+::selection {
+  background-color: rgb(181, 192, 221);
+  color: black;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(181, 192, 221);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2751c4;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2751c4;
+}
+
 .blue-btn {
   background: #2751c4;
   border: none;
   border-radius: 30px;
   color: white;
+  font-weight: bold;
   padding: 10px 20px;
   text-decoration: none;
   -webkit-transition: all 350ms ease-in-out;
@@ -268,6 +303,34 @@ nav.main-menu ul a:hover {
     top: 7.8rem;
   }
 }
+.banner {
+  margin-top: 140px;
+}
+
+.uk-slideshow-items h3, .uk-slideshow-items p, .uk-slideshow-items small {
+  color: #2751c4;
+  font-family: inherit;
+}
+.uk-slideshow-items .uk-overlay-default {
+  border-radius: 30px;
+  padding-bottom: 50px;
+}
+
+.cta-block {
+  background: white;
+  border-radius: 50px;
+  -webkit-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.05);
+          box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.05);
+  color: #2751c4;
+  position: relative;
+  margin-top: -45px;
+  padding: 2rem 20px;
+}
+.cta-block h3 {
+  color: #2751c4;
+  font-weight: normal;
+}
+
 footer {
   background: #2751c4;
   color: white;
@@ -334,7 +397,8 @@ footer p {
 }
 
 #myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: rgb(181, 192, 221);
+  color: #2751c4;
 }
 
 .page-header {

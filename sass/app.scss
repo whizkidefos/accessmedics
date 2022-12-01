@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 $blue: #2751c4;
+$blueLight: rgb(181, 192, 221);
 $borderRadius: 30px;
 $boxShadow: 1px 3px 5px rgba(0, 0, 0, 0.05);
 
@@ -13,17 +14,48 @@ html, body {
     scroll-behavior: smooth;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+::selection {
+    background-color: $blueLight;
+    color: black;
+}
+
+//ScrollBar
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: $blueLight;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: $blue;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: $blue;
+}
+
 .blue-btn {
     background: $blue;
     border: none;
     border-radius: $borderRadius;
     color: white;
+    font-weight: bold;
     padding: 10px 20px;
     text-decoration: none;
     transition: all 350ms ease-in-out;
 
     &:hover {
-        background: rgb(181, 192, 221);
+        background: $blueLight;
         color: $blue;
         box-shadow: $boxShadow;
         text-decoration: none
@@ -32,6 +64,7 @@ html, body {
 
 // Imports
 @import './components/header';
+@import './components/banner';
 @import './components/footer';
 @import './components/back-to-top';
 @import './pages/page';

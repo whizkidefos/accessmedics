@@ -1,0 +1,30 @@
+.banner {
+    margin-top: 140px;
+}
+
+.uk-slideshow-items {
+    h3, p, small {
+        color: $blue;
+        font-family: inherit;
+    }
+
+    .uk-overlay-default {
+        border-radius: $borderRadius;
+        padding-bottom: 50px;
+    }
+}
+
+.cta-block {
+    background: white;
+    border-radius: 50px;
+    box-shadow: $boxShadow;
+    color: $blue;
+    position: relative;
+    margin-top: -45px;
+    padding: 2rem 20px;
+
+    h3 {
+        color: $blue;
+        font-weight: normal;
+    }
+}
