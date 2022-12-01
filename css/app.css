@@ -6,3 +6,284 @@
 html, body {
   font-family: "Poppins", sans-serif;
 }
+
+.blue-btn {
+  background: #2751c4;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  -webkit-transition: all 350ms ease-in-out;
+  transition: all 350ms ease-in-out;
+}
+.blue-btn:hover {
+  background: rgb(181, 192, 221);
+  color: #2751c4;
+  -webkit-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.05);
+          box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+  z-index: 20;
+}
+
+.secondary-nav {
+  background: #2751c4;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.5rem 6rem;
+}
+.secondary-nav-left a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.secondary-nav-right a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.primary-nav {
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.05);
+          box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.05);
+  padding: 10px 6rem;
+  height: 80px;
+}
+.primary-nav .logo img {
+  height: 75px;
+}
+.primary-nav .primary-nav-links {
+  margin-top: 16px;
+}
+.primary-nav .primary-nav-links .current-menu-item {
+  font-weight: bold;
+}
+
+nav.main-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+nav.main-menu ul a {
+  color: #2751c4;
+  padding: 0 15px;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+}
+nav.main-menu ul a:hover {
+  text-decoration: none;
+}
+
+.application-button-mobile {
+  display: none;
+}
+
+.burger {
+  position: fixed;
+  top: 7.2rem;
+  bottom: 50%;
+  right: 20px;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+  z-index: 20;
+  display: none;
+}
+.burger:hover {
+  height: 30px;
+}
+
+.burger-bar {
+  background-color: #2751c4;
+  display: block;
+  width: 100%;
+  height: 3px;
+  border-radius: 3px;
+}
+.burger-bar::before, .burger-bar::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: #2751c4;
+  border-radius: 3px;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+.burger-bar::before {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+.burger-bar::after {
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+
+.burger.open .burger-bar {
+  background: transparent;
+}
+
+.burger.open .burger-bar::before {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  background: #2751c4;
+}
+
+.burger.open .burger-bar::after {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  background: #2751c4;
+}
+
+@media (max-width: 960px) {
+  .secondary-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .primary-nav .logo {
+    position: fixed;
+    left: 20px;
+    top: 72px;
+  }
+  .application-button {
+    display: none;
+  }
+  .application-button-mobile {
+    display: block;
+    margin-top: 60px;
+    margin-left: 32px;
+  }
+  .primary-nav-links {
+    position: fixed;
+    top: 150px;
+    left: -350px;
+    background: white;
+    width: 300px;
+    height: 100vh;
+    -webkit-transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    z-index: 10;
+  }
+  .primary-nav-links nav.main-menu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .primary-nav-links nav.main-menu ul a {
+    color: #2751c4;
+    display: block;
+    margin: 30px 0;
+    -webkit-transition: 250ms;
+    transition: 250ms;
+  }
+  .primary-nav-links.active {
+    left: 0;
+  }
+  .burger {
+    display: block;
+  }
+}
+@media (max-width: 560px) {
+  .secondary-nav-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .secondary-nav-left a {
+    margin-right: 0;
+  }
+  .secondary-nav-left svg {
+    display: none;
+  }
+  .secondary-nav-right a {
+    margin-left: 0;
+  }
+  .primary-nav .logo {
+    top: 80px;
+  }
+  .primary-nav .logo img {
+    height: 60px;
+    margin-top: 10px;
+  }
+  .burger {
+    top: 7.8rem;
+  }
+}
+.page-header {
+  background: #2751c4;
+  color: white;
+  padding: 5rem 0;
+  position: relative;
+  z-index: 0;
+  margin-top: 145px;
+}
+.page-header h1 {
+  color: white;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  .page-header {
+    margin-top: 170px;
+  }
+}

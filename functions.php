@@ -5,7 +5,8 @@
 function accessmedics_menus() {
     register_nav_menus( 
         array (
-            'main-menu'  => 'Main Menu'
+            'main-menu'  => 'Main Menu',
+            'footer-menu'  => 'Footer Menu',
         )
      );
 }
@@ -26,7 +27,7 @@ function accessmedics_scripts() {
     wp_enqueue_style( 'Font_Awesome', get_template_directory_uri(). '/css/fontawesome.min.css', array(), '6.2.0' );
 
     // Main CSS
-    wp_enqueue_style( 'main-css', get_template_directory_uri(). '/css/newhorizon.css', array('uikit-css', 'googlefonts'), '1.0.0' );
+    wp_enqueue_style( 'main-css', get_template_directory_uri(). '/css/app.css', array('uikit-css', 'googlefonts'), '1.0.0' );
 
     // JavaScripts
     // if ( !is_admin() ) wp_deregister_script('jquery');
@@ -39,7 +40,7 @@ function accessmedics_scripts() {
 
     wp_enqueue_script( 'fontawesome-js', get_template_directory_uri(). '/js/fontawesome.min.js', array(), '6.2.0', 'true' );
 
-    wp_enqueue_script( 'main-js', get_template_directory_uri(). '/js/newhorizon.js', array('jquery'), '1.0.0', 'true' );
+    wp_enqueue_script( 'main-js', get_template_directory_uri(). '/js/app.js', array('jquery'), '1.0.0', 'true' );
 
 }
 

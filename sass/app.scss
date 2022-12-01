@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 $blue: #2751c4;
+$borderRadius: 30px;
+$boxShadow: 1px 3px 5px rgba(0, 0, 0, 0.05);
 
 *, *::before, *::after {
     font-family: 'Poppins', sans-serif;
@@ -9,3 +11,24 @@ $blue: #2751c4;
 html, body {
     font-family: 'Poppins', sans-serif;
 }
+
+.blue-btn {
+    background: $blue;
+    border: none;
+    border-radius: $borderRadius;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: all 350ms ease-in-out;
+
+    &:hover {
+        background: rgb(181, 192, 221);
+        color: $blue;
+        box-shadow: $boxShadow;
+        text-decoration: none
+    }
+}
+
+// Imports
+@import './components/header';
+@import './pages/page';
