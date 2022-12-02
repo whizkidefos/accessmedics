@@ -2,4 +2,6 @@
 
 <?php get_template_part('/components/banner'); ?>
 
+<?php get_template_part('/components/intro'); ?>
+
 <?php get_footer(); ?>

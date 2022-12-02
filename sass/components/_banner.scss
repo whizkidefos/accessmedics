@@ -28,3 +28,13 @@
         font-weight: normal;
     }
 }
+
+@media (max-width: 768px) {
+    .cta-block {
+        border-radius: $borderRadius;
+        margin-top: -25px;
+        h3 {
+            font-size: 18px;
+        }
+    }
+}

@@ -1,5 +1,5 @@
 <section class="banner">
-    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: fade; autoplay: true; autoplay-interval: 5000">
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="min-height: 300; max-height: 600; animation: fade; autoplay: true; autoplay-interval: 5000">
 
         <ul class="uk-slideshow-items">
             <li>

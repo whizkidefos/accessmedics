@@ -331,10 +331,45 @@ nav.main-menu ul a:hover {
   font-weight: normal;
 }
 
+@media (max-width: 768px) {
+  .cta-block {
+    border-radius: 30px;
+    margin-top: -25px;
+  }
+  .cta-block h3 {
+    font-size: 18px;
+  }
+}
+.intro {
+  padding: 5rem 0;
+}
+.intro article {
+  max-width: 520px;
+  width: 100%;
+  margin: auto;
+}
+.intro h2 {
+  color: #2751c4;
+  font-weight: bold;
+  position: relative;
+}
+.intro h2::after {
+  content: "";
+  width: 35px;
+  height: 3px;
+  border-radius: 3px;
+  background: #2751c4;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
 footer {
   background: #2751c4;
   color: white;
-  margin-top: 5rem;
+  margin-top: 3rem;
   padding: 5rem 0;
 }
 footer p, footer a {
