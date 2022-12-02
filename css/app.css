@@ -328,6 +328,7 @@ nav.main-menu ul a:hover {
 }
 .cta-block h3 {
   color: #2751c4;
+  font-size: 20px;
   font-weight: normal;
 }
 
@@ -347,6 +348,7 @@ nav.main-menu ul a:hover {
   max-width: 520px;
   width: 100%;
   margin: auto;
+  padding-bottom: 2rem;
 }
 .intro h2 {
   color: #2751c4;
@@ -366,10 +368,44 @@ nav.main-menu ul a:hover {
           transform: translate(-50%, -50%);
 }
 
+.intro-service-card img {
+  border-radius: 30px;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.intro-service-card h4 {
+  color: #2751c4;
+  margin: 0;
+}
+.intro-service-card p {
+  margin: 0;
+}
+
+.home-care-services {
+  background: rgb(181, 192, 221);
+  color: #2751c4;
+  padding: 5rem 0;
+}
+.home-care-services svg {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+.home-care-services h4 {
+  color: #2751c4;
+  font-weight: bold;
+  margin: 0;
+}
+.home-care-services p {
+  margin: 0;
+  margin-top: 10px;
+}
+
 footer {
   background: #2751c4;
   color: white;
-  margin-top: 3rem;
   padding: 5rem 0;
 }
 footer p, footer a {

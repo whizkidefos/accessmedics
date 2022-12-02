@@ -4,4 +4,6 @@
 
 <?php get_template_part('/components/intro'); ?>
 
+<?php get_template_part('/components/home-care-services'); ?>
+
 <?php get_footer(); ?>
