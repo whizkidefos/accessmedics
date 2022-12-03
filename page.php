@@ -2,9 +2,12 @@
 
 <header class="page-header">
     <div class="uk-container">
-        <div class="uk-card uk-card-default uk-card-body">
-            <h1><?php the_title(); ?></h1>
-        </div>
+        <section class="page-header-grid">
+            <div class="page-header-left"></div>
+            <div class="page-header-right">
+                <h1><?php the_title(); ?></h1>
+            </div>
+        </section>
     </div>
 </header>
 

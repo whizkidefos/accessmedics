@@ -61,6 +61,31 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
+div.wpforms-container-full .wpforms-form .wpforms-pagebreak-left .wpforms-page-button,
+.wpforms-submit-container .wpforms-submit,
+.wpforms-form button[type=submit] {
+  background: #2751c4 !important;
+  border: 0;
+  border-radius: 30px;
+  color: white !important;
+  font-weight: bold;
+  padding: 10px 30px !important;
+}
+div.wpforms-container-full .wpforms-form .wpforms-pagebreak-left .wpforms-page-button:hover,
+.wpforms-submit-container .wpforms-submit:hover,
+.wpforms-form button[type=submit]:hover {
+  background: rgb(181, 192, 221) !important;
+  color: #2751c4 !important;
+  -webkit-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.05) !important;
+          box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.05) !important;
+  text-decoration: none;
+}
+
+.wpforms-form .wpforms-save-resume-button {
+  color: #2751c4 !important;
+  margin: 0 10px;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -473,13 +498,30 @@ footer p {
 }
 
 .page-header {
-  color: #2751c4;
   position: relative;
-  z-index: 0;
-  margin-top: 145px;
+  z-index: 1;
+  margin-top: 160px;
 }
-.page-header h1 {
+
+.page-header-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.page-header-grid .page-header-left {
+  background: #2751c4;
+  height: 200px;
+  width: 40%;
+}
+.page-header-grid .page-header-right {
+  margin-left: -5rem;
+}
+.page-header-grid h1 {
   color: #2751c4;
+  mix-blend-mode: difference;
   font-weight: bold;
   position: relative;
   text-align: center;
@@ -487,6 +529,21 @@ footer p {
 
 .page-content {
   padding: 5rem 0;
+}
+
+.contact-us-content h3, .contact-us-content h4 {
+  color: #2751c4;
+  margin: 0;
+}
+.contact-us-content h3 {
+  font-weight: bold;
+}
+.contact-us-content p {
+  margin: 0;
+}
+
+.cqc-container {
+  margin-top: 15px;
 }
 
 @media (max-width: 960px) {

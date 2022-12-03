@@ -62,6 +62,34 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+div.wpforms-container-full .wpforms-form .wpforms-pagebreak-left .wpforms-page-button,
+.wpforms-submit-container .wpforms-submit,
+.wpforms-form button[type=submit] {
+    background: $blue !important;
+    border: 0;
+    border-radius: $borderRadius;
+    color: white !important;
+    font-weight: bold;
+    padding: 10px 30px !important;
+
+     &:hover {
+        background: $blueLight !important;
+        color: $blue !important;
+        box-shadow: $boxShadow !important;
+        text-decoration: none
+    }
+}
+
+// div.wpforms-container-save-resume .wpforms-form .wpforms-pagebreak-left .wpforms-save-resume-button {
+//     color: $blue !important;
+//     margin: 0 10px;
+// }
+
+.wpforms-form .wpforms-save-resume-button {
+    color: $blue !important;
+    margin: 0 10px;
+}
+
 // Imports
 @import './components/header';
 @import './components/banner';
