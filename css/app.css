@@ -77,6 +77,8 @@ div.wpforms-container-full .wpforms-form .wpforms-pagebreak-left .wpforms-page-b
   color: white !important;
   font-weight: bold;
   padding: 10px 30px !important;
+  -webkit-transition: 250ms;
+  transition: 250ms;
 }
 div.wpforms-container-full .wpforms-form .wpforms-pagebreak-left .wpforms-page-button:hover,
 .wpforms-submit-container .wpforms-submit:hover,
@@ -86,6 +88,24 @@ div.wpforms-container-full .wpforms-form .wpforms-pagebreak-left .wpforms-page-b
   -webkit-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.05) !important;
           box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.05) !important;
   text-decoration: none;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-page-button {
+  background: white;
+  color: #2751c4 !important;
+  font-size: 0.9em;
+  font-weight: 400;
+  margin: 0 5px;
+  min-width: 90px;
+  text-align: center;
+  border: 2px solid #2751c4 !important;
+  border-radius: 30px !important;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+}
+div.wpforms-container-full .wpforms-form .wpforms-page-button:hover {
+  background: #2751c4 !important;
+  color: white !important;
 }
 
 .wpforms-form .wpforms-save-resume-button {
