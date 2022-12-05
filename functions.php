@@ -18,7 +18,7 @@ function accessmedics_scripts() {
     wp_enqueue_style( 'uikit-css', get_template_directory_uri(). '/css/uikit.min.css', array(), '3.15.10' );
 
     // Google Fonts
-    wp_enqueue_style( 'googlefonts', 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap' );
+    wp_enqueue_style( 'googlefonts', 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap' );
 
     // Swiper CSS
     wp_enqueue_style( 'swiper-css', get_template_directory_uri(). '/css/swiper.min.css', array(), '8.4.4' );

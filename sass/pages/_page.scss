@@ -195,6 +195,44 @@
 }
 
 // Page Care Services
+.care-service-cards {
+    margin-top: 3rem;
+}
+
+.care-service-card {
+    color: #666;
+    text-decoration: none;
+    transition: 250ms;
+
+    &:hover {
+        text-decoration: none;
+        color: $blue;
+    }
+
+    &:hover img {
+        border-color: $blue;
+    }
+
+    h5 {
+        color: $blue;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 100%;
+        border: 10px solid $blueLight;
+        margin-bottom: 15px;
+        transition: border 250ms ease-in-out;
+    }
+}
 
 @media (max-width: 960px) {
     .page-header {

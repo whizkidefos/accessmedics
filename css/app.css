@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 *, *::before, *::after {
   font-family: "Poppins", sans-serif;
 }
@@ -698,6 +697,43 @@ footer p {
 }
 .home-care-help img {
   width: 80px;
+}
+
+.care-service-cards {
+  margin-top: 3rem;
+}
+
+.care-service-card {
+  color: #666;
+  text-decoration: none;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+}
+.care-service-card:hover {
+  text-decoration: none;
+  color: #2751c4;
+}
+.care-service-card:hover img {
+  border-color: #2751c4;
+}
+.care-service-card h5 {
+  color: #2751c4;
+  font-weight: bold;
+  margin: 0;
+}
+.care-service-card p {
+  margin: 0;
+}
+.care-service-card img {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 100%;
+  border: 10px solid rgb(181, 192, 221);
+  margin-bottom: 15px;
+  -webkit-transition: border 250ms ease-in-out;
+  transition: border 250ms ease-in-out;
 }
 
 @media (max-width: 960px) {
