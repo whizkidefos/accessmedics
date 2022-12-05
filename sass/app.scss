@@ -62,6 +62,14 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+.custom-divider {
+    width: 75px;
+    height: 5px;
+    border-radius: 5px;
+    background: $blue;
+    margin: 15px auto;
+}
+
 div.wpforms-container-full .wpforms-form .wpforms-pagebreak-left .wpforms-page-button,
 .wpforms-submit-container .wpforms-submit,
 .wpforms-form button[type=submit] {
@@ -95,6 +103,7 @@ div.wpforms-container-full .wpforms-form .wpforms-pagebreak-left .wpforms-page-b
 @import './components/banner';
 @import './components/intro';
 @import './components/home-care-services';
+@import './components/get-in-touch';
 @import './components/footer';
 @import './components/back-to-top';
 @import './pages/page';

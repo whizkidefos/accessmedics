@@ -61,6 +61,14 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
+.custom-divider {
+  width: 75px;
+  height: 5px;
+  border-radius: 5px;
+  background: #2751c4;
+  margin: 15px auto;
+}
+
 div.wpforms-container-full .wpforms-form .wpforms-pagebreak-left .wpforms-page-button,
 .wpforms-submit-container .wpforms-submit,
 .wpforms-form button[type=submit] {
@@ -428,6 +436,27 @@ nav.main-menu ul a:hover {
   margin-top: 10px;
 }
 
+.get-in-touch {
+  background: rgb(181, 192, 221);
+  padding: 5rem 0;
+}
+.get-in-touch h2, .get-in-touch p {
+  margin: 0;
+}
+.get-in-touch h2 {
+  color: #2751c4;
+  font-size: 50px;
+  font-weight: bold;
+}
+.get-in-touch p {
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .get-in-touch h2 {
+    font-size: 35px;
+  }
+}
 footer {
   background: #2751c4;
   color: white;
@@ -546,8 +575,151 @@ footer p {
   margin-top: 15px;
 }
 
+.about-us-content h3 {
+  color: #2751c4;
+  font-weight: bold;
+  margin: 0;
+  line-height: 30px;
+}
+.about-us-content p {
+  margin: 0;
+}
+
+.custom-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2rem 0;
+}
+.custom-flex article, .custom-flex figure {
+  width: calc(50% - 20px);
+}
+.custom-flex article h4 {
+  color: #2751c4;
+  font-weight: bold;
+  position: relative;
+}
+.custom-flex article h4::after {
+  content: "";
+  background: rgb(181, 192, 221);
+  width: 60px;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  top: -7px;
+  z-index: -1;
+}
+.custom-flex figure img {
+  border-radius: 30px;
+}
+
+.custom-flex-alt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2rem 0;
+}
+.custom-flex-alt article, .custom-flex-alt figure {
+  width: calc(50% - 20px);
+}
+.custom-flex-alt article h4 {
+  color: #2751c4;
+  font-weight: bold;
+  position: relative;
+}
+.custom-flex-alt article h4::after {
+  content: "";
+  background: rgb(181, 192, 221);
+  width: 60px;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  top: -7px;
+  z-index: -1;
+}
+.custom-flex-alt figure img {
+  border-radius: 30px;
+}
+
+.get-started-page {
+  padding: 2rem 0 3rem 0;
+}
+
+.page-template-subtitle {
+  color: #2751c4;
+  font-weight: bold;
+}
+
+.get-started-cards {
+  margin-bottom: 2rem;
+}
+
+.get-started-card h3 {
+  color: #2751c4;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.home-care-help {
+  padding: 0 0 5rem 0;
+}
+.home-care-help .uk-card {
+  padding: 20px;
+}
+.home-care-help h3 {
+  color: #2751c4;
+  font-weight: bold;
+  margin: 0;
+}
+.home-care-help p {
+  margin: 0;
+}
+.home-care-help h4 {
+  color: #2751c4;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+.home-care-help img {
+  width: 80px;
+}
+
 @media (max-width: 960px) {
   .page-header {
     margin-top: 170px;
+  }
+  .custom-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .custom-flex article, .custom-flex figure {
+    width: 100%;
+  }
+  .custom-flex-alt {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .custom-flex-alt article, .custom-flex-alt figure {
+    width: 100%;
   }
 }

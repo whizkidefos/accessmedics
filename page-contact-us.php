@@ -17,7 +17,7 @@
             <div class="contact-us-content">
                 <h3>Get in touch</h3>
                 <p>
-                    Please feel free to get in touch with our head office using the details listed below.
+                    Please feel free to get in touch with our head office using the details listed below. Our friendly staff are on hand 24/7 to offer any kind of assistance, whether that’s a chat about your staffing requirements or to answer any questions you may have about our recruitment process.
                 </p>
                 <hr>
                 <h4>Head Office</h4>

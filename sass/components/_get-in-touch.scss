@@ -1,0 +1,26 @@
+.get-in-touch {
+    background: $blueLight;
+    padding: 5rem 0;
+
+    h2, p {
+        margin: 0;
+    }
+
+    h2 {
+        color: $blue;
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    p {
+        padding-bottom: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .get-in-touch {
+        h2 {
+            font-size: 35px;
+        }
+    }
+}

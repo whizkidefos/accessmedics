@@ -52,8 +52,168 @@
     margin-top: 15px;
 }
 
+// About Us Page
+.about-us-content {
+    // max-width: 600px;
+    // width: 100%;
+    // margin: 0 auto;
+
+    h3 {
+        color: $blue;
+        font-weight: bold;
+        margin: 0;
+        line-height: 30px;
+    }
+
+    p {
+        margin: 0;
+    }
+}
+
+.custom-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+
+    article, figure {
+        width: calc(50% - 20px);
+    }
+
+    article {
+        h4 {
+            color: $blue;
+            font-weight: bold;
+            position: relative;
+
+            &::after {
+                content: '';
+                background: $blueLight;
+                width: 60px;
+                height: 40px;
+                position: absolute;
+                left: 0;
+                top: -7px;
+                z-index: -1;
+            }
+        }
+    }
+
+    figure img {
+        border-radius: $borderRadius;
+    }
+}
+
+.custom-flex-alt {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+
+    article, figure {
+        width: calc(50% - 20px);
+    }
+
+    article {
+        h4 {
+            color: $blue;
+            font-weight: bold;
+            position: relative;
+
+            &::after {
+                content: '';
+                background: $blueLight;
+                width: 60px;
+                height: 40px;
+                position: absolute;
+                left: 0;
+                top: -7px;
+                z-index: -1;
+            }
+        }
+    }
+
+    figure img {
+        border-radius: $borderRadius;
+    }
+}
+
+// Get started page template
+.get-started-page {
+    padding: 2rem 0 3rem 0;
+}
+
+.page-template-subtitle {
+    color: $blue;
+    font-weight: bold;
+}
+
+.get-started-cards {
+    margin-bottom: 2rem;
+}
+
+.get-started-card {
+    // border-radius: $borderRadius;
+
+    h3 {
+        color: $blue;
+        font-size: 35px;
+        font-weight: bold;
+    }
+}
+
+// Page Home Care
+.home-care-help {
+    padding: 0 0 5rem 0;
+
+    .uk-card {
+        padding: 20px;
+    }
+
+    h3 {
+        color: $blue;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    h4 {
+        color: $blue;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    img {
+        width: 80px;
+    }
+}
+
+// Page Care Services
+
 @media (max-width: 960px) {
     .page-header {
         margin-top: 170px;
+    }
+
+    .custom-flex {
+        flex-direction: column;
+
+        article, figure {
+            width: 100%;
+        }
+    }
+
+    .custom-flex-alt {
+        flex-direction: column-reverse;
+
+        article, figure {
+            width: 100%;
+        }
     }
 }
