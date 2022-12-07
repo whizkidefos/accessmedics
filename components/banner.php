@@ -4,7 +4,7 @@
         <ul class="uk-slideshow-items">
             <li>
                 <div class="uk-position-cover" uk-slideshow-parallax="scale: 1.2,1.2,1">
-                    <img src="<?php echo get_template_directory_uri() . "/assets/images/female-nurse-close.jpg" ?>" alt="female nurse" uk-cover>
+                    <img src="<?php echo get_template_directory_uri() . "/assets/images/slides/access-medics-slide-01.jpg" ?>" alt="female nurse" uk-cover>
                 </div>
                 
                 <div class="uk-position-cover" uk-slideshow-parallax="opacity: 0,0,0.2; backgroundColor: #000,#000"></div>
@@ -17,7 +17,7 @@
                 </div>
             </li>
             <li>
-                <img src="<?php echo get_template_directory_uri() . "/assets/images/male-nurse.jpg" ?>" alt="male nurse" uk-cover>
+                <img src="<?php echo get_template_directory_uri() . "/assets/images/slides/healthcare-staff-slide.jpg" ?>" alt="male nurse" uk-cover>
                 <div class="uk-overlay uk-overlay-default uk-position-center uk-position-small uk-text-center">
                     <small>We are recruiting</small>
                     <h3 class="uk-margin-remove">Nurses, Care Assistants & Support Workers.</h3>
@@ -26,7 +26,7 @@
                 </div>
             </li>
             <li>
-                <img src="<?php echo get_template_directory_uri() . "/assets/images/hospital-cleaner.jpg" ?>" alt="hospital cleaner" uk-cover>
+                <img src="<?php echo get_template_directory_uri() . "/assets/images/slides/homecare-slide.jpg" ?>" alt="home care" uk-cover>
                 <div class="uk-overlay uk-overlay-default uk-position-center uk-position-small uk-text-center">
                     <small>Access Medics</small>
                     <h3 class="uk-margin-remove">Home Care Your Family With Love.</h3>
@@ -35,7 +35,7 @@
                 </div>
             </li>
             <li>
-                <img src="<?php echo get_template_directory_uri() . "/assets/images/female-nurse.jpg" ?>" alt="female nurse" uk-cover>
+                <img src="<?php echo get_template_directory_uri() . "/assets/images/slides/access-medics-slide-02.jpg" ?>" alt="female nurse" uk-cover>
                 <div class="uk-overlay uk-overlay-default uk-position-center uk-position-small uk-text-center">
                     <small>Trained & Vetted</small>
                     <h3 class="uk-margin-remove">Our Staff are Carefully Selected.</h3>

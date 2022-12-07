@@ -19,7 +19,7 @@
             </div>
             <div>
                 <div class="intro-service-card">
-                    <img src="<?php echo get_template_directory_uri() . "/assets/images/nurse-staffing.jpg" ?>" alt="service image">
+                    <img src="<?php echo get_template_directory_uri() . "/assets/images/services/quality-personal-service.jpg" ?>" alt="quality service image">
                     <h4>Quality Personnel Service</h4>
                     <p>
                         We recruit and deliver our services nationwide, supplying staff to all areas and specialities of the healthcare and domestic.
@@ -28,7 +28,7 @@
             </div>
             <div>
                 <div class="intro-service-card">
-                    <img src="<?php echo get_template_directory_uri() . "/assets/images/nurse-staffing.jpg" ?>" alt="service image">
+                    <img src="<?php echo get_template_directory_uri() . "/assets/images/services/our-service-standards.jpg" ?>" alt="service image">
                     <h4>Our Service Standards</h4>
                     <p>
                         Access Medics is your industry specialist recruiter for the care and health industry.

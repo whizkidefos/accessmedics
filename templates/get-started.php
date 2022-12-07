@@ -14,7 +14,7 @@
 </header>
 
 <section class="page-content">
-    <div class="uk-container">
+    <div class="uk-container uk-container-small">
         <h2 class="uk-text-center uk-padding page-template-subtitle">Provide us with the requested information and we’ll be in touch.</h2>
         <div class="uk-child-width-1-3@m uk-grid-match uk-text-center get-started-cards" uk-grid>
             <div>

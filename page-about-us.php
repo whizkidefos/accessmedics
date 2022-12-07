@@ -38,7 +38,7 @@
         </section>
         <section class="custom-flex-alt">
             <figure>
-                <img src="<?php echo get_template_directory_uri() . "/assets/images/nurse-care-smiling-patient.jpg" ?>" alt="access medics">
+                <img src="<?php echo get_template_directory_uri() . "/assets/images/services/our-service-standards.jpg" ?>" alt="access medics">
             </figure>
             <article>
                 <h4>Our Service Standards</h4>
@@ -59,7 +59,7 @@
                 </p>
             </article>
             <figure>
-                <img src="<?php echo get_template_directory_uri() . "/assets/images/nurse-care-smiling-patient.jpg" ?>" alt="access medics">
+                <img src="<?php echo get_template_directory_uri() . "/assets/images/slides/access-medics-slide-01.jpg" ?>" alt="access medics">
             </figure>
         </section>
     </div>
