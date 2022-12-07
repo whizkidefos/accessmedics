@@ -56,13 +56,13 @@
 <section class="uk-container uk-text-center cta-block">
     <div class="uk-child-width-1-3@m" uk-grid>
         <div>
-            <h3><i class="fa-solid fa-clipboard-user"></i> Are you looking for staff?</h3>
+            <a href="<?php echo home_url(); ?>/get-started"><h3><i class="fa-solid fa-clipboard-user"></i> Are you looking for staff?</h3></a>
         </div>
         <div>
-            <h3><i class="fa-solid fa-user-nurse"></i> Are you looking for work?</h3>
+            <a href="<?php echo home_url(); ?>/apply-now"><h3><i class="fa-solid fa-user-nurse"></i> Are you looking for work?</h3></a>
         </div>
         <div>
-            <h3><i class="fa-solid fa-hospital-user"></i> Are you looking for care?</h3>
+            <a href="<?php echo home_url(); ?>/get-started"><h3><i class="fa-solid fa-hospital-user"></i> Are you looking for care?</h3></a>
         </div>
     </div>
 </section>
