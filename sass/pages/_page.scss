@@ -54,14 +54,12 @@
 
 // About Us Page
 .about-us-content {
-    // max-width: 600px;
-    // width: 100%;
-    // margin: 0 auto;
 
     h3 {
         color: $blue;
         font-weight: bold;
         margin: 0;
+        padding-bottom: 15px;
         line-height: 30px;
     }
 
@@ -90,7 +88,7 @@
             &::after {
                 content: '';
                 background: $blueLight;
-                width: 60px;
+                width: 70px;
                 height: 40px;
                 position: absolute;
                 left: 0;

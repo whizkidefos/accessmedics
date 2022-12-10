@@ -21,12 +21,12 @@
     color: $blue;
     position: relative;
     margin-top: -45px;
-    padding: 2rem 20px;
+    padding: 30px 20px 10px 20px;
 
     h3 {
         color: $blue;
-        font-size: 20px;
-        font-weight: normal;
+        font-size: 16px;
+        font-weight: 600;
     }
 
     a:hover {
@@ -40,9 +40,6 @@
     .cta-block {
         border-radius: $borderRadius;
         margin-top: -20px;
-        h3 {
-            font-size: 18px;
-        }
     }
 
     .uk-slideshow-items {

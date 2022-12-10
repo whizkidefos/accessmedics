@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .blue-btn {
   background: #2751c4;
-  border: none;
+  border: 2px solid #2751c4;
   border-radius: 30px;
   color: white;
   font-weight: bold;
@@ -72,7 +72,7 @@ div.wpforms-container-full .wpforms-form .wpforms-pagebreak-left .wpforms-page-b
 .wpforms-submit-container .wpforms-submit,
 .wpforms-form button[type=submit] {
   background: #2751c4 !important;
-  border: 0;
+  border: 2px solid #2751c4 !important;
   border-radius: 30px;
   color: white !important;
   font-weight: bold;
@@ -376,12 +376,12 @@ nav.main-menu ul a:hover {
   color: #2751c4;
   position: relative;
   margin-top: -45px;
-  padding: 2rem 20px;
+  padding: 30px 20px 10px 20px;
 }
 .cta-block h3 {
   color: #2751c4;
-  font-size: 20px;
-  font-weight: normal;
+  font-size: 16px;
+  font-weight: 600;
 }
 .cta-block a:hover {
   text-decoration: none;
@@ -394,9 +394,6 @@ nav.main-menu ul a:hover {
   .cta-block {
     border-radius: 30px;
     margin-top: -20px;
-  }
-  .cta-block h3 {
-    font-size: 18px;
   }
   .uk-slideshow-items h3 {
     font-size: 20px;
@@ -415,18 +412,6 @@ nav.main-menu ul a:hover {
   color: #2751c4;
   font-weight: bold;
   position: relative;
-}
-.intro h2::after {
-  content: "";
-  width: 35px;
-  height: 3px;
-  border-radius: 3px;
-  background: #2751c4;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
 }
 
 .intro-service-card img {
@@ -607,6 +592,7 @@ footer p {
   color: #2751c4;
   font-weight: bold;
   margin: 0;
+  padding-bottom: 15px;
   line-height: 30px;
 }
 .about-us-content p {
@@ -638,7 +624,7 @@ footer p {
 .custom-flex article h4::after {
   content: "";
   background: rgb(181, 192, 221);
-  width: 60px;
+  width: 70px;
   height: 40px;
   position: absolute;
   left: 0;

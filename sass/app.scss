@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .blue-btn {
     background: $blue;
-    border: none;
+    border: 2px solid $blue;
     border-radius: $borderRadius;
     color: white;
     font-weight: bold;
@@ -72,7 +72,7 @@ div.wpforms-container-full .wpforms-form .wpforms-pagebreak-left .wpforms-page-b
 .wpforms-submit-container .wpforms-submit,
 .wpforms-form button[type=submit] {
     background: $blue !important;
-    border: 0;
+    border: 2px solid $blue !important;
     border-radius: $borderRadius;
     color: white !important;
     font-weight: bold;
@@ -83,7 +83,7 @@ div.wpforms-container-full .wpforms-form .wpforms-pagebreak-left .wpforms-page-b
         background: $blueLight !important;
         color: $blue !important;
         box-shadow: $boxShadow !important;
-        text-decoration: none
+        text-decoration: none;
     }
 }
 
