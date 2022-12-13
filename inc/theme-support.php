@@ -55,7 +55,12 @@ function theme_setup(){
         'header-text' => array( 'site-title', 'site-description' ),
     ) );
 
-
-
 }
 add_action('after_setup_theme','theme_setup');
+
+// Enable dashicons on the frontend
+function load_dashicons_front_end() {
+  wp_enqueue_style( 'dashicons' );
+}
+
+add_action( 'wp_enqueue_scripts', 'load_dashicons_front_end' );

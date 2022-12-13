@@ -48,5 +48,6 @@ add_action( 'wp_enqueue_scripts', 'accessmedics_scripts' );
 
 // Theme support
 include get_theme_file_path( '/inc/theme-support.php' );
+include get_theme_file_path( '/inc/custom-login.php' );
 
 ?>
