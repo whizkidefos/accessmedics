@@ -232,6 +232,11 @@
     }
 }
 
+//Page Contact us
+.contact-us-content {
+    a { color: $blue; }
+}
+
 @media (max-width: 960px) {
     .page-header {
         margin-top: 170px;

@@ -751,6 +751,10 @@ footer p {
   transition: border 250ms ease-in-out;
 }
 
+.contact-us-content a {
+  color: #2751c4;
+}
+
 @media (max-width: 960px) {
   .page-header {
     margin-top: 170px;

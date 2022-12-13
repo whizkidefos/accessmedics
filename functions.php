@@ -14,7 +14,7 @@ add_action( 'init', 'accessmedics_menus' );
 
 // Load stylesheets and javascript files
 function accessmedics_scripts() {
-    // Bootstrap
+    // UIKit CSS
     wp_enqueue_style( 'uikit-css', get_template_directory_uri(). '/css/uikit.min.css', array(), '3.15.10' );
 
     // Google Fonts
